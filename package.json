@@ -1,0 +1,25 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node weather.js"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Pavel Kundenko <pavel.kundenko@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "dedent-js": "^1.0.1",
+    "dotenv": "^10.0.0"
+  }
+}
